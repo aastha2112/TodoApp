@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+#navbar {
+  background-color: blueviolet;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navLogo {
+  color: white;
+
+  padding: 0 10px;
+}
+.navLogo > a {
+  font-size: 40px;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+a:hover {
+  color: lightgray;
+}
